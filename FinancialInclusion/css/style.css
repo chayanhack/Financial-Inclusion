@@ -1,0 +1,188 @@
+
+nav {
+  border-bottom: solid 1px #6699CC;
+  position: fixed;
+  
+}
+
+.navbar-expand-md {
+	position: fixed; 
+	top: 0; 
+    width: 100%;
+	z-index: 9999;
+	background: white;
+}
+
+#home-page{
+    margin-top: 80px;
+    border-bottom: solid 1px steelblue;
+    bottom:5px; 
+   
+}
+
+#tax,#credaccess,#finedu, #irecomm, #credhist{
+  border-bottom: solid 1px steelblue;
+  margin-bottom: 40px;
+
+}
+
+
+
+.navbar-brand {
+    color: steelblue;
+	max-width: 200px;
+	white-space: normal;
+	-webkit-text-stroke: thin;
+
+}
+
+
+@media (min-width: 768px)
+.navbar-expand-md .navbar-nav .nav-link {
+
+ color: steelblue;
+ -webkit-text-stroke: thin;
+ 
+ 
+}
+@media only screen and (max-width: 768px) {
+
+nav {
+  border-bottom: solid 0.5px #6699CC;
+}
+}
+
+@media only screen and (max-width: 768px) {
+.navbar-nav .nav-link{
+    border-bottom: solid 1px #6699CC;   
+}
+}
+
+.nav-link:active , .nav-link:hover {
+  border-bottom: solid 3px steelblue;
+
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-dark .navbar-toggler-icon{
+  background-image : url("../images/menu-icon.jpg");
+  border:transparent;
+}
+.navbar-toggler:focus {
+	outline: none;
+}
+
+.navbar-nav .nav-link{
+color: #6699CC;
+-webkit-text-stroke: thin;
+}
+
+
+
+.welcome{
+   color: steelBlue;
+   font-size: larger;
+   font-weight: 700;
+   padding: 25px 25px 25px 25px;
+}
+
+.welcome-img{
+  display: block;
+   width: 100%;
+   height: 80%;
+}
+
+.definitions{
+   color: steelBlue;
+   font-size: large;
+   font-weight: bold;
+   padding: 25px 25px 25px 25px;
+   border-top: solid 1 px aliceblue;
+}
+
+.definitions-border{
+  border-top: solid 1 px aliceblue;
+
+}
+
+.fi,.fii{
+ 	background-color: white;
+    color: steelblue;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border: solid 1px steelblue;
+    font-weight: 600;
+}
+
+.speech-fi, .speech-fii, .speech-investment, .speech-investcgr {
+   background-color: white;
+    color: steelblue;
+    cursor: pointer;
+    width: 100%;
+    text-align: justify;
+    outline: none;
+    font-size: 15px;
+    border: solid 1px steelblue;
+    font-weight: 600;
+    content:'\02795';
+    text-align: center;
+
+}
+
+
+.card-body {
+  padding: 0 18px;
+  max-height: 300px;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+  background-color: white;
+  color: steelblue;
+  overflow-y : scroll;
+  scrollable-color: steelblue; 
+  border: steelblue solid 1px;
+  text-align: justify;
+}
+
+.active, .fi:hover, .fii:hover , .speech-fi:hover, .speech-fii:hover{
+  background-color: aliceblue;
+  color: steelblue;
+}
+
+.form-control{
+ border: solid 1px steelblue;
+}
+
+.feedback-header{
+ text-align: center ! important;
+ font-weight: 700!important;
+ font-size: xx-large;
+}
+
+.feedback-form{
+  max-height: 500px!important;
+}
+
+#irecomm,#tax,#credaccess,#credhist{
+ text-align: -webkit-center;
+
+}
+.ctgr-link{
+   color: steelblue;
+}
+
+.modal-top{
+
+ margin-top: 80px;
+ margin-bottom: 40px;
+}
